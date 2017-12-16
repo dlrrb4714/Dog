@@ -16,7 +16,6 @@ def givemylist(lower, upper):
     for x in range(lower, upper):
         if x % 7 == 0 and x % 5 != 0:
             mylist.append(str(x))
-    print(mylist)
     return mylist
 
 
