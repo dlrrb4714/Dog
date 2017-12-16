@@ -34,7 +34,7 @@ def howmanygames(p, d, m, s):
     if p < m:
         return numofgames
     while s >= p:
-        while p >= m+d:
+        while p > m:
             numofgames += 1
             s -= p
             p -= d
